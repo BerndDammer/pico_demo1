@@ -1,0 +1,15 @@
+.settings
+CMakeFiles
+generated
+pico-sdk
+pioasm
+
+dis
+
+.cproject
+.project
+Makefile
+cmake_install.cmake
+*.elf
+*.map
+CMakeCache.txt
