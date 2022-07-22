@@ -4,18 +4,16 @@
 #include "hardware/watchdog.h"
 #include "hardware/clocks.h"
 
-#include "loop.h"
+#include "timer.h"
 #include "blinker.h"
-
-
 
 int main()
 {
 
-	stdio_init_all();
+    stdio_init_all();
 
-	looper_main();
-	blinker_main();
+    timer_init();
+    blinker_main();
 
     puts("Main Lost");
 
