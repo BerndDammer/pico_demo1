@@ -50,5 +50,5 @@ target_link_libraries(pd1
 
 
 
-# pico_add_extra_outputs(t6)
+# pico_add_extra_outputs(pd1)
 
